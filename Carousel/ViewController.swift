@@ -9,6 +9,8 @@ import UIKit
 import SceneKit
 import ARKit
 
+import AVFoundation
+
 class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
@@ -197,7 +199,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                     isJumping = false
                 }
             }else if (imageNode[1].childNodes[1].name == "oxyNode"){
-                print("on image node 1")
+//                print("on image node 1")
                 //1 jump between 0 and 2
                 let distance = GLKVector3Distance(position2, position1)
                 let distance2 = GLKVector3Distance(position2, position3)
@@ -217,7 +219,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 }
             }else{
                 //2 jump between 1 and 2
-                print("on image node 2")
+//                print("on image node 2")
                 print(imageNode[2].childNodes[1].name)
                 let distance = GLKVector3Distance(position2, position3)
                 let distance2 = GLKVector3Distance(position1, position3)
@@ -311,6 +313,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         shapeNode.runAction(moveBack)
     }
     
+    // Function to play the jump sound
+        func playJumpSound() {
+            guard let url = Bundle.main.url(forResource: "twinkle-sound-effect", withExtension: "mpeg") else {
+                print("Sound file not found")
+                return
+            }
+
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: url)
+                audioPlayer?.play()
+            } catch {
+                print("Error playing sound: \(error.localizedDescription)")
+            }
+        }
+    
     
     
     //function animasi gabungin element (bonding)
@@ -319,6 +336,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         if isJumping {
             return
         }
+        
+        playJumpSound()
         
         let shapeNode = secondNode.childNodes[1]
         
