@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HeartsandDiamonds
 //
-//  Created by Rania Pryanka Arazi on 28/04/24.
+//  Created by Dhau' Embun Azzahra on 28/04/24.
 //
 
 import UIKit
