@@ -1,0 +1,35 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "back.arreferenceimage"
+    },
+    {
+      "filename" : "backcard2.arreferenceimage"
+    },
+    {
+      "filename" : "HydrogenCard.arreferenceimage"
+    },
+    {
+      "filename" : "HydrogenCard2.arreferenceimage"
+    },
+    {
+      "filename" : "joker.arreferenceimage"
+    },
+    {
+      "filename" : "king.arreferenceimage"
+    },
+    {
+      "filename" : "minion.arreferenceimage"
+    },
+    {
+      "filename" : "OxygenCard.arreferenceimage"
+    },
+    {
+      "filename" : "queen.arreferenceimage"
+    }
+  ]
+}

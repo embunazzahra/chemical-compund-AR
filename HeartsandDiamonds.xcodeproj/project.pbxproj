@@ -12,6 +12,7 @@
 		2704028B2BDE0F08001877BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704028A2BDE0F08001877BA /* ViewController.swift */; };
 		2704028E2BDE0F08001877BA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2704028D2BDE0F08001877BA /* Base */; };
 		270402902BDE0F0A001877BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2704028F2BDE0F0A001877BA /* Assets.xcassets */; };
+		713E51732BE11E0C00D35971 /* twinkle-sound-effect.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = 713E51722BE11E0C00D35971 /* twinkle-sound-effect.mpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2704028A2BDE0F08001877BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2704028D2BDE0F08001877BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2704028F2BDE0F0A001877BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713E51722BE11E0C00D35971 /* twinkle-sound-effect.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = "twinkle-sound-effect.mpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				2704028A2BDE0F08001877BA /* ViewController.swift */,
 				2704028C2BDE0F08001877BA /* Main.storyboard */,
 				2704028F2BDE0F0A001877BA /* Assets.xcassets */,
+				713E51722BE11E0C00D35971 /* twinkle-sound-effect.mpeg */,
 			);
 			path = HeartsandDiamonds;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			files = (
 				270402892BDE0F08001877BA /* art.scnassets in Resources */,
 				270402902BDE0F0A001877BA /* Assets.xcassets in Resources */,
+				713E51732BE11E0C00D35971 /* twinkle-sound-effect.mpeg in Resources */,
 				2704028E2BDE0F08001877BA /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CXPD89H8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CXPD89H8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
