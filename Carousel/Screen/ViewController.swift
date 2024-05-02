@@ -10,10 +10,20 @@ import SceneKit
 import ARKit
 
 import AVFoundation
+import SwiftUI
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
+    
+    @IBOutlet weak var historyButton: UIButton!
+    
+    @IBAction func historyButtonPressed(_ sender: Any){
+        print("button pressed")
+        let hostingController = UIHostingController(rootView: HistoryPage())
+        navigationController?.pushViewController(hostingController, animated: true)
+    }
+    
     
     //variable to hold shape nodes
     var oxyNode: SCNNode?
