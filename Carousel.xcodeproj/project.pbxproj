@@ -16,6 +16,7 @@
 		713E517D2BE1DE1700D35971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713E517C2BE1DE1700D35971 /* Main.storyboard */; };
 		713E51802BE1F85900D35971 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 713E517F2BE1F85900D35971 /* art.scnassets */; };
 		713E51822BE20A2100D35971 /* twinkle-sound-effect.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = 713E51812BE20A2100D35971 /* twinkle-sound-effect.mpeg */; };
+		713E51842BE33E1200D35971 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E51832BE33E1200D35971 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		713E517E2BE1E35F00D35971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		713E517F2BE1F85900D35971 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		713E51812BE20A2100D35971 /* twinkle-sound-effect.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = "twinkle-sound-effect.mpeg"; sourceTree = "<group>"; };
+		713E51832BE33E1200D35971 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		270402692BDC0682001877BA /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				713E51832BE33E1200D35971 /* SplashScreenView.swift */,
 				713E51812BE20A2100D35971 /* twinkle-sound-effect.mpeg */,
 				713E517E2BE1E35F00D35971 /* Info.plist */,
 				2704026A2BDC0682001877BA /* CarouselApp.swift */,
@@ -159,6 +162,7 @@
 			files = (
 				270402792BDCE242001877BA /* PlayView.swift in Sources */,
 				2704026D2BDC0682001877BA /* ContentView.swift in Sources */,
+				713E51842BE33E1200D35971 /* SplashScreenView.swift in Sources */,
 				713E51792BE1D82000D35971 /* ViewController.swift in Sources */,
 				2704026B2BDC0682001877BA /* CarouselApp.swift in Sources */,
 			);
