@@ -244,7 +244,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 }
                 else if ((isJumping && (distance > maxDistance)) || (isJumping && (distance2 > maxDistance))){
                     print("reset jumping image node 2")
-                    resetShapeNodePosition(node: imageNode[2])
+                    resetShapeNodePosition(node: imageNode[0])
                     resetShapeNodePosition(node: imageNode[1])
                     isJumping = false
                 }
@@ -382,14 +382,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let deltaZ = displacementVector.z
         
         
-        var direction = 1
+        var direction = -1
         
 
         if positiveRight && (deltaX > 0){
-             direction = -1
+             direction = 1
         }
         if !positiveRight && (deltaX < 0){
-             direction = -1
+             direction = 1
         }
         
         //spin faster
